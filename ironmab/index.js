@@ -35,7 +35,7 @@ const messages = [
 
 // cooldown map (per channel)
 const cooldowns = new Map();
-const COOLDOWN_TIME = 10 * 1000; // 10 seconds
+const COOLDOWN_TIME = 60 * 1000; // 10 seconds
 
 client.once("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
@@ -77,7 +77,7 @@ client.once("ready", () => {
         } catch (err) {
             console.error("Random message error:", err);
         }
-    }, 10000); // every 10 seconds
+    }, 60000); // every 10 seconds
 });
 
 client.on("messageCreate", async (message) => {
