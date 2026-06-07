@@ -30,7 +30,7 @@ const messages = [
     "man i dont like these damn guns",
     "mamo-nashines activatood",
     "ay mab why are hue sad?",
-    "@Spooderman (Clone)#7304  is corny"
+    "<@1513037038025445426> is corny"
 ];
 
 // cooldown map (per channel)
